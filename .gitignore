@@ -73,3 +73,14 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Local Unity batch/build logs generated during import or CI-style builds
+/unity_*.log
+
+# Addressables may auto-generate this file during player build
+/Assets/AddressableAssetsData/link.xml
+/Assets/AddressableAssetsData/link.xml.meta
+
+# Legacy Input System codegen duplicate path (kept out to avoid type conflicts)
+/Assets/_Scripts/Systems/Input/InputActions.cs
+/Assets/_Scripts/Systems/Input/InputActions.cs.meta
